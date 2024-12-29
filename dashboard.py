@@ -64,7 +64,6 @@ exit_icon=PhotoImage(file='exit.png')
 exit_button=Button(leftFrame,image=exit_icon,compound=LEFT,text='Exit',font=('Aptos',20,'bold'),anchor='w',padx=10)
 exit_button.pack(fill=X)
 
-
 emp_frame=Frame(window,bg='#27AE60',bd=3,relief=RIDGE)
 emp_frame.place(x=400,y=125,height=160,width=280)
 total_emp_icon=PhotoImage(file='total_emp.png')
